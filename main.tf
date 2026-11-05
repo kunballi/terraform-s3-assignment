@@ -16,7 +16,7 @@ module "infrastructure_compliance_storage" {
   enable_versioning = var.enable_versioning
   enable_lifecycle  = var.enable_lifecycle
   # 🎯 DYNAMIC INPUT: Simply add or append bucket name strings to this variable array block
-  bucket_names = ["kunballi-s3-project"]
+  bucket_names = ["kunballi-s3-project-wezva"]
 }
 
 # Output tracking loop maps straight to your terminal screen for verification
